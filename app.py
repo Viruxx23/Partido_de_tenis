@@ -45,7 +45,7 @@ for i in range (4):
     A=input(f"Escribe el puntaje {i+1}: \n")
     secuencia.append(A.upper())
 
-#secuencia = ["P1", "P1", "P2", "P2", "P1", "P2", "P1", "P1"]   de ejemplo
+#secuencia = [P1, P1, P2, P2, P1, P2, P2, P2]   de ejemplo
 print("Los Resultados fueron:")
 print("\n")
 for each in secuencia:
