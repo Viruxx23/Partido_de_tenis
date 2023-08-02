@@ -40,11 +40,10 @@ def score(P1,P2):
 P1=0
 P2=0
 secuencia=[]
-#____________________________ para pedir al usuario los datos
+
 for i in range (4):
     A=input(f"Escribe el puntaje {i+1}: \n")
     secuencia.append(A.upper())
-    #____________________________
 
 #secuencia = ["P1", "P1", "P2", "P2", "P1", "P2", "P1", "P1"]   de ejemplo
 print("Los Resultados fueron:")
